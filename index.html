@@ -1,0 +1,42 @@
+<!-- Website Home Page-->
+<!-- Calls to the script.js and style.css files for formatting-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interesting Subjects</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Subjects</h1>
+
+<!-- Computer Science Subject Tab-->
+  <div class="subject" onclick="toggleTopics('cs')">Computer Science</div>
+  <div class="topics" id="cs-topics">
+    <a href="topics/cs-programming.html">Programming</a>
+    <a href="topics/cs-ai.html">Artificial Intelligence</a>
+    <a href="topics/cs-networks.html">Networks</a>
+    <a href="topics/cs-security.html">Cybersecurity</a>
+  </div>
+
+<!-- Architecture Subject Tab-->
+  <div class="subject" onclick="toggleTopics('arch')">Architecture</div>
+  <div class="topics" id="arch-topics">
+    <a href="topics/arch-history.html">Architectural History</a>
+    <a href="topics/arch-modern.html">Modern Architecture</a>
+    <a href="topics/arch-sustain.html">Sustainable Design</a>
+    <a href="topics/arch-drawing.html">Architectural Drawing</a>
+  </div>
+
+<!-- Video Games Subject Tab-->
+  <div class="subject" onclick="toggleTopics('games')">Video Games</div>
+  <div class="topics" id="games-topics">
+    <a href="topics/games-design.html">Game Design</a>
+    <a href="topics/games-history.html">History of Games</a>
+    <a href="topics/games-genres.html">Game Genres</a>
+    <a href="topics/games-tech.html">Game Development Tech</a>
+  </div>
+</body>
+</html>
