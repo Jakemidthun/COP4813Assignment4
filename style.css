@@ -59,3 +59,13 @@ button {
 button:hover {
   background-color: #000080;
 }
+
+/* Formatting for the topic images */
+.diagram-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
